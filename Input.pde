@@ -5,7 +5,6 @@ class Input {
   int vecMatch = 0;
   String vectorData = " ";
   ArrayList<PVector> input = new ArrayList<PVector>(); //creates an arrayList to store PVector data for each grid area
-  int largest = 0;
   
   Input(String name) {
     this.name = name;
